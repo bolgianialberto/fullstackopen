@@ -1,0 +1,1 @@
+export default  ({onClick, text}) => <button onClick={onClick}>{text}</button>
