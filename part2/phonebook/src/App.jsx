@@ -74,7 +74,7 @@ const App = () => {
           filterName
           ? persons.filter(person => person.name.toLowerCase().includes(filterName.toLowerCase()))
           : persons
-        ).map(person => <div key={person.name}>{person.name}</div>)
+        ).map(person => <div key={person.name}>{person.name} {person.number}</div>)
       }
     </div>
   )
